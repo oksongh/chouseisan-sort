@@ -1,6 +1,6 @@
 # chouseisan-sort
 
-調整さん(https://chouseisan.com/)で出力したcsvファイルを○の数でソートします。
+[調整さん](https://chouseisan.com/)で出力したcsvファイルを○の数でソートします。
 
 ## 環境 enviroment
 
