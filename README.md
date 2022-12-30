@@ -2,11 +2,11 @@
 
 調整さん(https://chouseisan.com/)で出力したcsvファイルを○の数でソートします。
 
-# 環境 enviroment
+## 環境 enviroment
 
 python3
 
-# 使い方 usage
+## 使い方 usage
 
 ```bash
 python chouseisan-sort.py chouseisan.csv
@@ -17,7 +17,7 @@ python chouseisan-sort.py chouseisan.csv -r 絶対参加する人
 ```
 -rで絶対に参加する人を指定します。(指定された人が○の日程だけでソート)
 
-# コマンドライン引数
+## コマンドライン引数
 usage: chouseisan-sort.py [-h] [-r [REQUIRED ...]] [-o OUTPUT] path
 
 positional arguments:
