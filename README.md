@@ -4,7 +4,7 @@
 
 ## 環境 enviroment
 
-python3
+python>=3.9
 
 ## 使い方 usage
 
@@ -17,17 +17,22 @@ python chouseisan-sort.py chouseisan.csv -r 絶対参加する人
 ```
 -rで絶対に参加する人を指定します。(指定された人が○の日程だけでソート)
 
+-oで指定したファイルに出力する。
+
 ## コマンドライン引数
+
 usage: chouseisan-sort.py [-h] [-r [REQUIRED ...]] [-o OUTPUT] path
 
 positional arguments:
+
   path                  file path
 
 options:
-  -h, --help            show this help message and exit
-  -r [REQUIRED ...], --required [REQUIRED ...]
+
+  *  -h, --help            show this help message and exit
+  *  -r [REQUIRED ...], --required [REQUIRED ...]
                         required participants
-  -o OUTPUT, --output OUTPUT
+  *  -o OUTPUT, --output OUTPUT
                         output csv file
 
 
